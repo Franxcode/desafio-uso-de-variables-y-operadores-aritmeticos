@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Uso de variables y operadores artimeticos</title>
+    <!-- Bootstrap v5.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- My own styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Desafio JS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="DDF_Operaciones_Matematicas.html">Diagrama de Flujo</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="operaciones_dos_numeros.html">Operaciones con 2 Números</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="temperatura.html">Temperatura Celcius a Fahrenheit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cantidad_de_dias.html">Cantidad de Días</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cinco_numeros.html">5 Números</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 class="text-center my-3">Uso de Variables y Operadores Aritméticos</h1>
+    <h3 class="text-center">Operaciones con 2 Números</h3>
+    <div class="container">
+        <div class="row mx-auto my-5">
+            <div class="col-lg-6">
+                <form action="" class="form_class">
+                    <span>Número 1:</span>
+                    <input type="text" name="numberOneQ2" id="numberOneQ2">
+                    <span>Número 2:</span>
+                    <input type="text" name="numberTwoQ2" id="numberTwoQ2">
+                    <button type="button" class="btn btn-primary" id="mainTriggerQ2">Calcular</button>
+                    <button type="button" class="btn btn-primary" id="mainTriggerQ3" style="display: none;">Calcular</button>
+                    <button type="button" class="btn btn-primary" id="mainTriggerQ4" style="display: none;">Calcular</button>
+                    <button type="button" class="btn btn-primary" id="mainTriggerQ5" style="display: none;">Calcular</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <p>Instrucciones:</p>
+                <hr>
+                <p>1.- Por favor ingrese 2 números diferentes y mayores a cero</p>
+                <p>2.- Con estos valores realizaremos las siguientes operaciones matemáticas: Suma, Resta, División, Multiplicación y Modulo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Resultados:</h2>
+                <hr>
+                <div id="result_additionQ2"></div>
+                <div id="result_substractionQ2"></div>
+                <div id="result_multiplicationQ2"></div>
+                <div id="result_divisionQ2"></div>
+                <div id="result_modulusQ2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap v5.1 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <!-- My own JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
